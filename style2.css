@@ -1,0 +1,262 @@
+/* 
+body{
+    background-image:url('https://i.pinimg.com/736x/99/29/eb/9929eb1d893305e97912670ac4e66758.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    background-color:none;
+    padding: 5px 5px;
+    position: relative;
+}
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.nav-list li{
+    margin-left: 30px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition:black;}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search-container{
+    display: list-item;
+    align-items: left;
+    width: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: none;
+}
+.search-input{
+    flex-direction:initial;
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+}
+.search-button{
+    background-color: orangered;
+    color: white;
+    padding: 5px 5px;
+    border:none;
+    transition: none;
+}
+
+.join{
+    background-color: orange;
+    border-radius: 2px solid white;
+    margin-left: 20px;
+    padding: 10px;
+}
+.design{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    margin-left: 26px;
+}
+.dev{
+    font-size: 25px;
+    color: orange;
+    font-weight: bold;
+    margin-left: 26px;
+}
+.cos{
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+    margin-left: 26px;
+}
+.text{
+    color: white;
+   line-height: 1.5;
+    margin-left: 26px;
+}
+/* .header{
+    color: orangered;
+    margin-left: 25px;
+    font-size: 30px;
+
+} */
+/* .nav-bar{
+    margin-bottom: -77px;
+ }  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url("https://i.pinimg.com/736x/99/29/eb/9929eb1d893305e97912670ac4e66758.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff6600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+.course-info h1 {
+  color: black;
+}
+
+.search-box input {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 50px;
+  color: #fff;
+}
+
+.content h1 span {
+  color: #ff6600;
+}
+
+.content p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  
+}
+
+.join-btn {
+  padding: 10px 20px;
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 750px;
+  /* margin-bottom: 609px; */
+  /* padding-top: 166px; */
+  margin-top: -200px;
+}
+
+.login-box h2 {
+  color: #fff;
+  text-align: center;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box input {
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.login-box button {
+  padding: 10px;
+  background-color: #ff6600;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-box a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 20px;
+}
+.course-info {
+  position: relative;
+  z-index: 1;
+}
+
+.course-info h1 {
+  z-index: 2;
+  position: relative;
+}
